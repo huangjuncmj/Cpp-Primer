@@ -13,6 +13,7 @@
 - Please **fork**([How?](https://help.github.com/articles/fork-a-repo)) this repository first.
 - **commit**([How?](https://help.github.com/articles/create-a-repo#commit-your-first-change)) in your own repository.
 - Give me a **pull request**([How?](https://help.github.com/articles/using-pull-requests)).
+- Syncing with([How?](https://help.github.com/articles/syncing-a-fork/)) the origin repository. This is very **important** because we will fix bugs at any time, and you maybe miss it.
 
 ### Table of Contents
 
@@ -22,7 +23,7 @@
   - [Chapter 3. Strings, Vectors, and Arrays](ch03/README.md)
   - [Chapter 4. Expressions](ch04/README.md)
   - [Chapter 5. Statements](ch05/README.md)
-  - [Chapter 6. Functions](ch06)
+  - [Chapter 6. Functions](ch06/README.md)
   - [Chapter 7. Classes](ch07)
   - [Chapter 8. The IO Library](ch08)
 - Part II: The C++ Library

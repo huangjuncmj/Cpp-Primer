@@ -12,19 +12,12 @@ int main()
 {
   string s;
   cout << "Enter a string of characters including punctuation." << endl;
-	while(getline(cin,s))
-	{
-		unsigned i = 0;
-		while (i < s.length())
-		{
-			if(ispunct(s[i]))
-			{
-				s.erase(i,1);
-				continue;
-			}
-			i++;
-		}
-		cout<<s<<endl;
-	}
+  while (getline(cin, s))
+  {
+    for (auto i : s)
+      if (!ispunct(i)) cout << i;
+    cout << endl;
+  }
+
   return 0;
 }

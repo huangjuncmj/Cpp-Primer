@@ -38,7 +38,7 @@ int main()
 
         //! using {} to create a pair and inert it into the multimap
         faml.insert({lastName,v_chidrenName});
-
+		v_chidrenName.clear();
         std::cout << "enter another last name:\n";
     }
 
